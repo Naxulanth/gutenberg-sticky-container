@@ -1,0 +1,107 @@
+.wp-block-ud-sticky-container > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"], 
+.wp-block-ud-sticky-container.size-5 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"]:first-child, 
+.wp-block-ud-sticky-container.size-5 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"] {
+    flex-basis: 50%;
+    flex-grow: 0;
+}
+
+.wp-block-ud-sticky-container.size-1 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"]:first-child, .wp-block-ud-sticky-container.size-9 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"] {
+    flex-basis: 10%;
+}
+
+.wp-block-ud-sticky-container.size-2 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"]:first-child, .wp-block-ud-sticky-container.size-8 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"] {
+    flex-basis: 20%;
+}
+
+.wp-block-ud-sticky-container.size-3 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"]:first-child, .wp-block-ud-sticky-container.size-7 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"] {
+    flex-basis: 30%;
+}
+
+.wp-block-ud-sticky-container.size-4 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"]:first-child, .wp-block-ud-sticky-container.size-6 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"] {
+    flex-basis: 40%;
+}
+
+.wp-block-ud-sticky-container.size-6 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"]:first-child {
+    flex-basis: 60%;
+}
+
+.wp-block-ud-sticky-container.size-7 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"]:first-child {
+    flex-basis: 70%;
+}
+
+.wp-block-ud-sticky-container.size-8 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"]:first-child {
+    flex-basis: 80%;
+}
+
+.wp-block-ud-sticky-container.size-9 > .editor-inner-blocks > .editor-block-list__layout > [data-type="ud/sticky-block"]:first-child {
+    flex-basis: 90%;
+}
+
+
+.wp-block-ud-sticky-block {
+    flex: 1;
+    margin-bottom: 1em;
+    flex-basis: 100%;
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.wp-block-ud-sticky-block:not(:last-child) {
+    margin-right: 32px;
+}
+
+.wp-block-ud-sticky-block:not(:first-child) {
+    margin-left: 32px;
+}
+
+.wp-block-ud-sticky-container.size-1 > .wp-block-ud-sticky-block:first-child, .wp-block-ud-sticky-container.size-9 > .wp-block-ud-sticky-block {
+    flex-basis: 10%;
+}
+
+.wp-block-ud-sticky-container.size-2 > .wp-block-ud-sticky-block:first-child, .wp-block-ud-sticky-container.size-8 > .wp-block-ud-sticky-block {
+    flex-basis: 20%;
+}
+
+.wp-block-ud-sticky-container.size-3 > .wp-block-ud-sticky-block:first-child, .wp-block-ud-sticky-container.size-7 > .wp-block-ud-sticky-block {
+    flex-basis: 30%;
+}
+
+.wp-block-ud-sticky-container.size-4 > .wp-block-ud-sticky-block:first-child, .wp-block-ud-sticky-container.size-6 > .wp-block-ud-sticky-block {
+    flex-basis: 40%;
+}
+
+.wp-block-ud-sticky-container.size-5 > .wp-block-ud-sticky-block:first-child, .wp-block-ud-sticky-container.size-5 > .wp-block-ud-sticky-block {
+    flex-basis: 50%;
+    flex-grow: 0;
+}
+
+.wp-block-ud-sticky-container.size-6 > .wp-block-ud-sticky-block:first-child, .wp-block-ud-sticky-container.size-4 > .wp-block-ud-sticky-block {
+    flex-basis: 60%;
+}
+
+.wp-block-ud-sticky-container.size-7 > .wp-block-ud-sticky-block:first-child, .wp-block-ud-sticky-container.size-3 > .wp-block-ud-sticky-block {
+    flex-basis: 70%;
+}
+
+.wp-block-ud-sticky-container.size-8 > .wp-block-ud-sticky-block:first-child, .wp-block-ud-sticky-container.size-2 > .wp-block-ud-sticky-block {
+    flex-basis: 80%;
+}
+
+.wp-block-ud-sticky-container.size-9 > .wp-block-ud-sticky-block:first-child, .wp-block-ud-sticky-container.size-1 > .wp-block-ud-sticky-block {
+    flex-basis: 90%;
+}
+
+.wp-block-ud-sticky-container.alignfull {
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 780px) {
+    .wp-block-ud-sticky-block:not(:last-child) {
+        margin-right: auto;
+    }
+    
+    .wp-block-ud-sticky-block:not(:first-child) {
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,40 @@
+.wp-block-ud-sticky-container>.editor-inner-blocks>.editor-block-list__layout {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=full] .wp-block-ud-sticky-container > .editor-inner-blocks {
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=full] .wp-block-ud-sticky-container > .editor-inner-blocks > .editor-block-list__layout {
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+}
+
+.editor-block-list__layout>[data-type="ud/sticky-container"].wp-block[data-align=full] .wp-block-ud-sticky-container .editor-inner-blocks [data-type="ud/sticky-block"] {
+    max-width: none;
+}
+
+.wp-block-ud-sticky-container > .editor-inner-blocks > .editor-block-list__layout>div:last-child {
+    display: none;
+}
+
+.editor-inner-blocks {
+    width: 100%;
+}
+
+.wp-block-ud-sticky-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .wp-block-ud-sticky-container {
+        display: block;
+    }
+}
