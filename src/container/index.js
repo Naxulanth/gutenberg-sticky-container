@@ -4,7 +4,6 @@
 
 //  Import CSS.
 import "./style.scss";
-import classnames from "classnames";
 import { SVG, Path, PanelBody, RangeControl } from "@wordpress/components";
 import { InnerBlocks, InspectorControls } from "@wordpress/editor";
 import { __ } from "@wordpress/i18n";
@@ -38,7 +37,6 @@ registerBlockType("ud/sticky-container", {
 	},
 	edit({ attributes, setAttributes, className }) {
 		const { ColumnSize } = attributes;
-		const classes = classnames(className, `has-2-columns`);
 		return [
 			<Fragment>
 				<InspectorControls>
@@ -57,7 +55,7 @@ registerBlockType("ud/sticky-container", {
 						/>
 					</PanelBody>
 				</InspectorControls>
-				<div className={classes + " size-" + ColumnSize}>
+				<div className={className + " has-2-columns size-" + ColumnSize}>
 					<InnerBlocks template={TEMPLATE} templateLock={false} />
 				</div>
 			</Fragment>
